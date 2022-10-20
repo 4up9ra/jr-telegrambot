@@ -1,8 +1,6 @@
-package com.github.javarushcommunity.jrtb;
+package com.github.javarushcommunity.jrtb.service;
 
 import com.github.javarushcommunity.jrtb.bot.JavaRushTelegramBot;
-import com.github.javarushcommunity.jrtb.service.SendBotMessageService;
-import com.github.javarushcommunity.jrtb.service.SendBotMessageServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
