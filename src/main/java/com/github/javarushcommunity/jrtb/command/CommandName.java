@@ -8,6 +8,7 @@ public enum CommandName {
     NO("/"),
     ADD_GROUP_SUB("/addgroupsub"),
     LIST_GROUP_SUB("/listgroupsub"),
+    DELETE_GROUP_SUB("/deletegroupsub"),
     STAT("/stat");
 
     private final String commandName;
