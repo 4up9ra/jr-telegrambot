@@ -7,8 +7,10 @@ services:
     environment:
       MYSQL_DATABASE: 'dev_jrtb_db'
       # So you don't have to use root, but you can if you like
+      # MYSQL_USER: 'dev_jrtb_db_user'
       MYSQL_USER: 'root'
       # You can use whatever password you like
+      # MYSQL_PASSWORD: 'dev_jrtb_db_password'
       MYSQL_PASSWORD: 'root'
       # Password for root access
       MYSQL_ROOT_PASSWORD: 'root'
