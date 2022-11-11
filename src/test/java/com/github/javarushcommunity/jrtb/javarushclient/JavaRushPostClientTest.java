@@ -15,11 +15,11 @@ class JavaRushPostClientTest {
     private final JavaRushPostClient postClient = new JavaRushPostClientImpl("${javarush.api.path}");
 
     @Test
-    public void shouldProperlyGetNew15Posts() {
+    public void shouldProperlyGetNew32Posts() {
         //when
         List<PostInfo> newPosts = postClient.findNewPosts(30, 2935);
 
         //then
-        Assertions.assertEquals(15, newPosts.size());
+        Assertions.assertEquals(32, newPosts.size());
     }
 }
